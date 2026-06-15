@@ -1,6 +1,6 @@
 # v5.0 (atual funcionando bem)
 
-para rodar o código vá no 
+para rodar o código vá no
 
 brkga_3d.py
 
@@ -19,3 +19,4 @@ vá no método main() e edite:
 - Fazer por força bruta
 - Analisar resultados
 - Comparar métodos
+- Fazer memória para soluções já resolvidas.

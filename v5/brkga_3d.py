@@ -709,7 +709,7 @@ class BRKGA:
         self.historico_melhores.append(self.melhor_fitness)
         
         if self.verbose:
-            print(f"Melhor inicial: {self.melhor_fitness}")
+            print(f"Melhor inicial: {self.melhor_fitness:.12f}")
             print(f"Soluções inválidas: {self.solucoes_invalidas}")
         
         geracao = 0
@@ -778,7 +778,7 @@ class BRKGA:
             
             # Progresso
             if self.verbose and (geracao % 50 == 0 or (time.time() - tempo_ultimo_print) > 30):
-                print(f"[...progresso] Geracao {geracao}: Fitness = {self.melhor_fitness:.12f}")
+                print(f"[... progresso ] Geracao {geracao}: Fitness = {self.melhor_fitness:.12f}")
                 print(f"   Soluções inválidas: {self.solucoes_invalidas}")
                 print(f"   Sem melhoria ha {geracao - ultima_melhoria} geracoes")
                 tempo_ultimo_print = time.time()
@@ -912,17 +912,17 @@ def main():
     # Suas caixas
 
     pedidos_order = {
-        0: {(1, 1, 1): 4},
-        1: {(1, 1, 4): 2},
-        2: {(4, 1, 1): 2},
-        3: {(3, 3, 3): 1},
-        4: {(1, 1, 1): 10},
-        5: {(2, 2, 1): 3, (1, 2, 2): 1}
+        0: {(1, 1, 1): 10},
+        1: {(1, 1, 4): 5},
+        2: {(4, 1, 1): 5},
+        3: {(3, 3, 3): 4},
+        4: {(1, 1, 1): 20},
+        5: {(2, 2, 1): 6, (1, 2, 2): 4}
     }
     
     caixas = converter_para_caixas(pedidos_order)
 
-    L, W, H = 4, 5, 6
+    L, W, H = 7, 9, 10
     
     # Exemplo 1: Modo ÚNICO (gamma único)
     print("\n" + "="*60)
@@ -939,10 +939,10 @@ def main():
         caixas=caixas,
         L=L, W=W, H=H,
         # gamma_unico=0.05, # ficou pior no geral, gamma=0 fica melhor.
-        gamma_x=0.0, gamma_y=0.00, gamma_z=0.01, #decidir****
-        peso_x=1.0, peso_y=1.0, peso_z=1.0,
+        gamma_x=0.0, gamma_y=0.00, gamma_z=0.01, # os testes com apenas gamma_z=0.01 foram melhores de todos ()
+        peso_x=1.0, peso_y=1.0, peso_z=1.0, # para testes de gamma hibrido, apagar depois
         exigir_estabilidade_descarga=True,
-        suporte_minimo=1.0,
+        suporte_minimo=1.0, # se <1 aceita caixas que não estão apoiadas
         verbose=True
     )
     
@@ -950,7 +950,7 @@ def main():
         geracoes_max=3000,
         sem_melhoria_max=1500,
         tempo_maximo_horas=10/60,
-        fitness_alvo=-0.00000001
+        fitness_alvo = -(1e-12)
     )
     
 
