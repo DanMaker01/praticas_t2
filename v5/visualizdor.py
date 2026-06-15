@@ -35,7 +35,7 @@ class Visualizador3D:
         
         print(f"Carregado: {caminho_pasta}")
         print(f"   Data: {dados['metadata']['data_execucao']}")
-        print(f"   Fitness: {dados['metadata']['melhor_fitness']:.4f}")
+        print(f"   Fitness: {dados['metadata']['melhor_fitness']:.12f}")
         print(f"   Utilizacao: {dados['metadata']['utilizacao']:.1%}")
         print(f"   Caixas: {len(dados['caixas'])}")
         
@@ -263,7 +263,7 @@ class Visualizador3D:
         self.ax.legend(handles=legend_elements, loc='upper left', fontsize=8)
         
         # Angulo que mostra melhor as caixas internas
-        self.ax.view_init(elev=20, azim=-45)
+        self.ax.view_init(elev=20, azim=112)
     
     def visualizar_descarga(self, dados):
         """Visualiza o processo de descarga passo a passo"""
@@ -394,7 +394,7 @@ class Visualizador3D:
         if legend_elements:
             self.ax.legend(handles=legend_elements, loc='upper left', fontsize=8)
         
-        self.ax.view_init(elev=20, azim=-45)
+        self.ax.view_init(elev=20, azim=112)
     
     def interativo(self):
         """Modo interativo para selecionar execucao"""
@@ -412,7 +412,7 @@ class Visualizador3D:
         print("\nExecucoes disponiveis:\n")
         for i, exec in enumerate(execucoes):
             print(f"{i+1}. {exec['timestamp']}")
-            print(f"   Fitness: {exec['fitness']:.4f} | Utilizacao: {exec['utilizacao']:.1%} | Caixas: {exec['caixas']}")
+            print(f"   Fitness: {exec['fitness']:.12f} | Utilizacao: {exec['utilizacao']:.1%} | Caixas: {exec['caixas']}")
             print()
         
         while True:
@@ -547,7 +547,7 @@ class Visualizador3D:
         
         melhor_idx = np.argmax(historico)
         ax.plot(melhor_idx, historico[melhor_idx], 'ro', markersize=8,
-               label=f'Melhor: {historico[melhor_idx]:.4f}')
+               label=f'Melhor: {historico[melhor_idx]:.12f}')
         
         return fig
 
