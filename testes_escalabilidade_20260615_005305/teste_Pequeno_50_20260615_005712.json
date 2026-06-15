@@ -1,0 +1,18 @@
+{
+  "nome_teste": "Pequeno_50",
+  "L": 4,
+  "W": 5,
+  "H": 6,
+  "volume_container": 120,
+  "num_caixas": 50,
+  "volume_caixas": 50,
+  "ocupacao_teorica": 41.66666666666667,
+  "volume_ocupado": 50,
+  "utilizacao_real": 41.66666666666667,
+  "fitness": -8.759999999999889e-06,
+  "tempo_total": 137.86166977882385,
+  "geracoes_executadas": 96,
+  "solucoes_invalidas": 1571,
+  "motivo_parada": "ESTAGNACAO - 30 geracoes sem melhoria",
+  "sucesso": true
+}

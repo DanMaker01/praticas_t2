@@ -1,0 +1,18 @@
+{
+  "nome_teste": "Medio_150",
+  "L": 8,
+  "W": 10,
+  "H": 12,
+  "volume_container": 960,
+  "num_caixas": 150,
+  "volume_caixas": 150,
+  "ocupacao_teorica": 15.625,
+  "volume_ocupado": 150,
+  "utilizacao_real": 15.625,
+  "fitness": -1.2821111111111434e-05,
+  "tempo_total": 326.8627030849457,
+  "geracoes_executadas": 9,
+  "solucoes_invalidas": 384,
+  "motivo_parada": "TEMPO_MAX - Limite de 0.08333333333333333h",
+  "sucesso": true
+}

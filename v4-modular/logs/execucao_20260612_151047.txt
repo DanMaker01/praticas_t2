@@ -1,0 +1,148 @@
+============================================================
+EMPACOTAMENTO 3D COM BRKGA (MODO CONTINUO COM METRICAS)
+============================================================
+
+DADOS DO PROBLEMA:
+  Container: 10 x 8 x 6 = 480 unidades
+  Numero de caixas: 8
+
+PARAMETROS DO BRKGA:
+  Populacao: 200
+  Elite: 40
+  Mutantes: 30
+  Crossover: 0.7
+  alpha=1.0, beta=500.0, gamma=50.0
+  Tempo maximo: 1.0 horas
+  Geracoes maximas: 10000
+  Fitness alvo: 1.0
+[CHECKPOINT] Retomando da geracao 20
+==================================================
+EXECUTANDO BRKGA (MODO CONTINUO)
+Pop: 200 | Elite: 40
+Tempo maximo: 1.0 horas
+Geracoes maximas: 10000
+Parar apos 500 geracoes sem melhoria
+Fitness alvo: 1.0
+==================================================
+[PROGRESSO] Geracao 50: Fitness = -9999.8292
+   Tempo medio/geracao: 0.047s
+   Sem melhoria ha 30 geracoes
+[MELHORIA] Geracao 62: Fitness = -5499.8292
+[PROGRESSO] Geracao 100: Fitness = -5499.8292
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 38 geracoes
+[PROGRESSO] Geracao 150: Fitness = -5499.8292
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 88 geracoes
+[PROGRESSO] Geracao 200: Fitness = -5499.8292
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 138 geracoes
+[PROGRESSO] Geracao 250: Fitness = -5499.8292
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 188 geracoes
+[PROGRESSO] Geracao 300: Fitness = -5499.8292
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 238 geracoes
+[PROGRESSO] Geracao 350: Fitness = -5499.8292
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 288 geracoes
+[PROGRESSO] Geracao 400: Fitness = -5499.8292
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 338 geracoes
+[PROGRESSO] Geracao 450: Fitness = -5499.8292
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 388 geracoes
+[PROGRESSO] Geracao 500: Fitness = -5499.8292
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 438 geracoes
+[PROGRESSO] Geracao 550: Fitness = -5499.8292
+   Tempo medio/geracao: 0.048s
+   Sem melhoria ha 488 geracoes
+[MELHORIA] Geracao 554: Fitness = -499.8292
+[PROGRESSO] Geracao 600: Fitness = -499.8292
+   Tempo medio/geracao: 0.049s
+   Sem melhoria ha 46 geracoes
+[PROGRESSO] Geracao 650: Fitness = -499.8292
+   Tempo medio/geracao: 0.044s
+   Sem melhoria ha 96 geracoes
+[PROGRESSO] Geracao 700: Fitness = -499.8292
+   Tempo medio/geracao: 0.048s
+   Sem melhoria ha 146 geracoes
+[MELHORIA] Geracao 709: Fitness = -249.8292
+[PROGRESSO] Geracao 750: Fitness = -249.8292
+   Tempo medio/geracao: 0.046s
+   Sem melhoria ha 41 geracoes
+[PROGRESSO] Geracao 800: Fitness = -249.8292
+   Tempo medio/geracao: 0.045s
+   Sem melhoria ha 91 geracoes
+[PROGRESSO] Geracao 850: Fitness = -249.8292
+   Tempo medio/geracao: 0.048s
+   Sem melhoria ha 141 geracoes
+[MELHORIA] Geracao 889: Fitness = 0.1708
+[PROGRESSO] Geracao 900: Fitness = 0.1708
+   Tempo medio/geracao: 0.046s
+   Sem melhoria ha 11 geracoes
+[PROGRESSO] Geracao 950: Fitness = 0.1708
+   Tempo medio/geracao: 0.047s
+   Sem melhoria ha 61 geracoes
+[PROGRESSO] Geracao 1000: Fitness = 0.1708
+   Tempo medio/geracao: 0.043s
+   Sem melhoria ha 111 geracoes
+[PROGRESSO] Geracao 1050: Fitness = 0.1708
+   Tempo medio/geracao: 0.045s
+   Sem melhoria ha 161 geracoes
+[PROGRESSO] Geracao 1100: Fitness = 0.1708
+   Tempo medio/geracao: 0.044s
+   Sem melhoria ha 211 geracoes
+[PROGRESSO] Geracao 1150: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 261 geracoes
+[PROGRESSO] Geracao 1200: Fitness = 0.1708
+   Tempo medio/geracao: 0.043s
+   Sem melhoria ha 311 geracoes
+[PROGRESSO] Geracao 1250: Fitness = 0.1708
+   Tempo medio/geracao: 0.045s
+   Sem melhoria ha 361 geracoes
+[PROGRESSO] Geracao 1300: Fitness = 0.1708
+   Tempo medio/geracao: 0.046s
+   Sem melhoria ha 411 geracoes
+[PROGRESSO] Geracao 1350: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 461 geracoes
+[PARADA] Convergencia: sem melhoria por 500 geracoes
+
+==================================================
+RESULTADO FINAL
+==================================================
+Geracoes executadas: 1389
+Tempo total: 59.83s (1.00min)
+Tempo medio por geracao: 0.044s
+Sem sobreposicao: SIM
+Estavel: SIM
+Ordem correta: SIM
+Melhor fitness: 0.1708
+Volume: 82/480 (17.1%)
+
+============================================================
+RELATORIO FINAL DE EXECUCAO
+============================================================
+Tempo total de execucao: 59.89s (1.00min)
+Fitness final: 0.1708
+
+Arquivos salvos em: resultados_brkga/
+   - resultados.json (solucao final)
+   - metricas_tempo.json (metricas de tempo)
+   - registro_geracoes.csv (evolucao por geracao)
+   - checkpoint.json (para retomada)
+
+Iniciando visualizacao 3D...
+Prioridade 0: OCULTAR
+Prioridade 0: MOSTRAR
+Prioridade 2: OCULTAR
+Prioridade 2: MOSTRAR
+Prioridade 2: OCULTAR
+Prioridade 1: OCULTAR
+Prioridade 1: MOSTRAR
+Prioridade 1: OCULTAR
+Prioridade 1: MOSTRAR
+Prioridade 1: OCULTAR

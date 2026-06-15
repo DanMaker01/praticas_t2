@@ -1,0 +1,18 @@
+{
+  "nome_teste": "Grande_100",
+  "L": 10,
+  "W": 12,
+  "H": 15,
+  "volume_container": 1800,
+  "num_caixas": 100,
+  "volume_caixas": 100,
+  "ocupacao_teorica": 5.555555555555555,
+  "volume_ocupado": 100,
+  "utilizacao_real": 5.555555555555555,
+  "fitness": -1.03175000000002e-05,
+  "tempo_total": 492.3233788013458,
+  "geracoes_executadas": 36,
+  "solucoes_invalidas": 332,
+  "motivo_parada": "TEMPO_MAX - Limite de 0.13333333333333333h",
+  "sucesso": true
+}

@@ -1,0 +1,18 @@
+{
+  "nome_teste": "Medio_100",
+  "L": 8,
+  "W": 10,
+  "H": 12,
+  "volume_container": 960,
+  "num_caixas": 100,
+  "volume_caixas": 100,
+  "ocupacao_teorica": 10.416666666666668,
+  "volume_ocupado": 100,
+  "utilizacao_real": 10.416666666666668,
+  "fitness": -1.0185000000000118e-05,
+  "tempo_total": 309.592985868454,
+  "geracoes_executadas": 24,
+  "solucoes_invalidas": 317,
+  "motivo_parada": "TEMPO_MAX - Limite de 0.08333333333333333h",
+  "sucesso": true
+}

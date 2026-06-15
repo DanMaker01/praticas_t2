@@ -1,0 +1,30 @@
+{
+  "data_execucao": "2026-06-15T17:00:22.256526",
+  "motivo_parada": "ESTAGNACAO - 50 geracoes sem melhoria",
+  "parametros": {
+    "num_individuos": 50,
+    "num_elite": 10,
+    "num_mutantes": 5,
+    "prob_crossover": 0.7,
+    "num_caixas": 60,
+    "L": 10,
+    "W": 8,
+    "H": 12,
+    "gamma_unico": null,
+    "gamma_x": 0.0,
+    "gamma_y": 0.0,
+    "gamma_z": 0.01,
+    "peso_x": 1.0,
+    "peso_y": 1.0,
+    "peso_z": 1.0,
+    "exigir_estabilidade_descarga": true,
+    "suporte_minimo": 1.0
+  },
+  "resultados": {
+    "melhor_fitness": -0.0,
+    "volume_ocupado": 180,
+    "volume_total": 960,
+    "geracoes_executadas": 81,
+    "solucoes_invalidas": 2695
+  }
+}

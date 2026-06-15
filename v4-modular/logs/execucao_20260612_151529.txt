@@ -1,0 +1,86 @@
+============================================================
+EMPACOTAMENTO 3D COM BRKGA (MODO CONTINUO COM METRICAS)
+============================================================
+
+DADOS DO PROBLEMA:
+  Container: 10 x 8 x 6 = 480 unidades
+  Numero de caixas: 8
+
+PARAMETROS DO BRKGA:
+  Populacao: 200
+  Elite: 40
+  Mutantes: 30
+  Crossover: 0.7
+  alpha=1.0, beta=500.0, gamma=50.0
+  Tempo maximo: 1.0 horas
+  Geracoes maximas: 10000
+  Fitness alvo: 1.0
+  Estagnacao: parar apos 500 geracoes sem melhoria
+[CHECKPOINT] Retomando da geracao 889
+==================================================
+EXECUTANDO BRKGA (MODO CONTINUO)
+Pop: 200 | Elite: 40
+Tempo maximo: 1.0 horas
+Geracoes maximas: 10000
+Parar apos 500 geracoes sem melhoria
+Fitness alvo: 1.0
+==================================================
+[PROGRESSO] Geracao 900: Fitness = 0.1708
+   Tempo medio/geracao: 0.044s
+   Sem melhoria ha 11 geracoes
+[PROGRESSO] Geracao 950: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 61 geracoes
+[PROGRESSO] Geracao 1000: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 111 geracoes
+[PROGRESSO] Geracao 1050: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 161 geracoes
+[PROGRESSO] Geracao 1100: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 211 geracoes
+[PROGRESSO] Geracao 1150: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 261 geracoes
+[PROGRESSO] Geracao 1200: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 311 geracoes
+[PROGRESSO] Geracao 1250: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 361 geracoes
+[PROGRESSO] Geracao 1300: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 411 geracoes
+[PROGRESSO] Geracao 1350: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 461 geracoes
+[PARADA] ESTAGNACAO - Sem melhoria por 500 geracoes
+
+==================================================
+RESULTADO FINAL
+==================================================
+Motivo da parada: ESTAGNACAO - Sem melhoria por 500 geracoes
+Geracoes executadas: 1389
+Tempo total: 19.76s (0.33min)
+Tempo medio por geracao: 0.039s
+Sem sobreposicao: SIM
+Estavel: SIM
+Ordem correta: SIM
+Melhor fitness: 0.1708
+Volume: 82/480 (17.1%)
+
+============================================================
+RELATORIO FINAL DE EXECUCAO
+============================================================
+Motivo da parada: ESTAGNACAO - Sem melhoria por 500 geracoes
+Tempo total de execucao: 19.79s (0.33min)
+Fitness final: 0.1708
+
+Arquivos salvos em: resultados_brkga/
+   - resultados.json (solucao final)
+   - metricas_tempo.json (metricas de tempo)
+   - registro_geracoes.csv (evolucao por geracao)
+   - checkpoint.json (para retomada)
+
+Iniciando visualizacao 3D...

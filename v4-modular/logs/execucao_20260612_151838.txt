@@ -1,0 +1,616 @@
+============================================================
+EMPACOTAMENTO 3D COM BRKGA (MODO CONTINUO COM METRICAS)
+============================================================
+
+DADOS DO PROBLEMA:
+  Container: 10 x 8 x 6 = 480 unidades
+  Numero de caixas: 8
+
+PARAMETROS DO BRKGA:
+  Populacao: 200
+  Elite: 40
+  Mutantes: 30
+  Crossover: 0.7
+  alpha=1.0, beta=500.0, gamma=50.0
+  Tempo maximo: 1.0 horas
+  Geracoes maximas: 10000
+  Fitness alvo: 1.0
+  Estagnacao: parar apos 500 geracoes sem melhoria
+[CHECKPOINT] Retomando da geracao 889
+==================================================
+EXECUTANDO BRKGA (MODO CONTINUO)
+Pop: 200 | Elite: 40
+Tempo maximo: 1.0 horas
+Geracoes maximas: 10000
+Fitness alvo: 1.0
+==================================================
+[PROGRESSO] Geracao 900: Fitness = 0.1708
+   Tempo medio/geracao: 0.047s
+   Sem melhoria ha 11 geracoes
+[PROGRESSO] Geracao 950: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 61 geracoes
+[PROGRESSO] Geracao 1000: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 111 geracoes
+[PROGRESSO] Geracao 1050: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 161 geracoes
+[PROGRESSO] Geracao 1100: Fitness = 0.1708
+   Tempo medio/geracao: 0.033s
+   Sem melhoria ha 211 geracoes
+[PROGRESSO] Geracao 1150: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 261 geracoes
+[PROGRESSO] Geracao 1200: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 311 geracoes
+[PROGRESSO] Geracao 1250: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 361 geracoes
+[PROGRESSO] Geracao 1300: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 411 geracoes
+[PROGRESSO] Geracao 1350: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 461 geracoes
+[PROGRESSO] Geracao 1400: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 511 geracoes
+[PROGRESSO] Geracao 1450: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 561 geracoes
+[PROGRESSO] Geracao 1500: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 611 geracoes
+[PROGRESSO] Geracao 1550: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 661 geracoes
+[PROGRESSO] Geracao 1600: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 711 geracoes
+[PROGRESSO] Geracao 1650: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 761 geracoes
+[PROGRESSO] Geracao 1700: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 811 geracoes
+[PROGRESSO] Geracao 1750: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 861 geracoes
+[PROGRESSO] Geracao 1800: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 911 geracoes
+[PROGRESSO] Geracao 1850: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 961 geracoes
+[PROGRESSO] Geracao 1900: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 1011 geracoes
+[PROGRESSO] Geracao 1950: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 1061 geracoes
+[PROGRESSO] Geracao 2000: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 1111 geracoes
+[PROGRESSO] Geracao 2050: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 1161 geracoes
+[PROGRESSO] Geracao 2100: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 1211 geracoes
+[PROGRESSO] Geracao 2150: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 1261 geracoes
+[PROGRESSO] Geracao 2200: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 1311 geracoes
+[PROGRESSO] Geracao 2250: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 1361 geracoes
+[PROGRESSO] Geracao 2300: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 1411 geracoes
+[PROGRESSO] Geracao 2350: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 1461 geracoes
+[PROGRESSO] Geracao 2400: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 1511 geracoes
+[PROGRESSO] Geracao 2450: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 1561 geracoes
+[PROGRESSO] Geracao 2500: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 1611 geracoes
+[PROGRESSO] Geracao 2550: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 1661 geracoes
+[PROGRESSO] Geracao 2600: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 1711 geracoes
+[PROGRESSO] Geracao 2650: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 1761 geracoes
+[PROGRESSO] Geracao 2700: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 1811 geracoes
+[PROGRESSO] Geracao 2750: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 1861 geracoes
+[PROGRESSO] Geracao 2800: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 1911 geracoes
+[PROGRESSO] Geracao 2850: Fitness = 0.1708
+   Tempo medio/geracao: 0.032s
+   Sem melhoria ha 1961 geracoes
+[PROGRESSO] Geracao 2900: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 2011 geracoes
+[PROGRESSO] Geracao 2950: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 2061 geracoes
+[PROGRESSO] Geracao 3000: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 2111 geracoes
+[PROGRESSO] Geracao 3050: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 2161 geracoes
+[PROGRESSO] Geracao 3100: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 2211 geracoes
+[PROGRESSO] Geracao 3150: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 2261 geracoes
+[PROGRESSO] Geracao 3200: Fitness = 0.1708
+   Tempo medio/geracao: 0.032s
+   Sem melhoria ha 2311 geracoes
+[PROGRESSO] Geracao 3250: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 2361 geracoes
+[PROGRESSO] Geracao 3300: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 2411 geracoes
+[PROGRESSO] Geracao 3350: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 2461 geracoes
+[PROGRESSO] Geracao 3400: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 2511 geracoes
+[PROGRESSO] Geracao 3450: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 2561 geracoes
+[PROGRESSO] Geracao 3500: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 2611 geracoes
+[PROGRESSO] Geracao 3550: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 2661 geracoes
+[PROGRESSO] Geracao 3600: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 2711 geracoes
+[PROGRESSO] Geracao 3650: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 2761 geracoes
+[PROGRESSO] Geracao 3700: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 2811 geracoes
+[PROGRESSO] Geracao 3750: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 2861 geracoes
+[PROGRESSO] Geracao 3800: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 2911 geracoes
+[PROGRESSO] Geracao 3850: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 2961 geracoes
+[PROGRESSO] Geracao 3900: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 3011 geracoes
+[PROGRESSO] Geracao 3950: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 3061 geracoes
+[PROGRESSO] Geracao 4000: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 3111 geracoes
+[PROGRESSO] Geracao 4050: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 3161 geracoes
+[PROGRESSO] Geracao 4100: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 3211 geracoes
+[PROGRESSO] Geracao 4150: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 3261 geracoes
+[PROGRESSO] Geracao 4200: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 3311 geracoes
+[PROGRESSO] Geracao 4250: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 3361 geracoes
+[PROGRESSO] Geracao 4300: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 3411 geracoes
+[PROGRESSO] Geracao 4350: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 3461 geracoes
+[PROGRESSO] Geracao 4400: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 3511 geracoes
+[PROGRESSO] Geracao 4450: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 3561 geracoes
+[PROGRESSO] Geracao 4500: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 3611 geracoes
+[PROGRESSO] Geracao 4550: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 3661 geracoes
+[PROGRESSO] Geracao 4600: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 3711 geracoes
+[PROGRESSO] Geracao 4650: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 3761 geracoes
+[PROGRESSO] Geracao 4700: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 3811 geracoes
+[PROGRESSO] Geracao 4750: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 3861 geracoes
+[PROGRESSO] Geracao 4800: Fitness = 0.1708
+   Tempo medio/geracao: 0.042s
+   Sem melhoria ha 3911 geracoes
+[PROGRESSO] Geracao 4850: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 3961 geracoes
+[PROGRESSO] Geracao 4900: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 4011 geracoes
+[PROGRESSO] Geracao 4950: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 4061 geracoes
+[PROGRESSO] Geracao 5000: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 4111 geracoes
+[PROGRESSO] Geracao 5050: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 4161 geracoes
+[PROGRESSO] Geracao 5100: Fitness = 0.1708
+   Tempo medio/geracao: 0.033s
+   Sem melhoria ha 4211 geracoes
+[PROGRESSO] Geracao 5150: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 4261 geracoes
+[PROGRESSO] Geracao 5200: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 4311 geracoes
+[PROGRESSO] Geracao 5250: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 4361 geracoes
+[PROGRESSO] Geracao 5300: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 4411 geracoes
+[PROGRESSO] Geracao 5350: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 4461 geracoes
+[PROGRESSO] Geracao 5400: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 4511 geracoes
+[PROGRESSO] Geracao 5450: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 4561 geracoes
+[PROGRESSO] Geracao 5500: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 4611 geracoes
+[PROGRESSO] Geracao 5550: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 4661 geracoes
+[PROGRESSO] Geracao 5600: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 4711 geracoes
+[PROGRESSO] Geracao 5650: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 4761 geracoes
+[PROGRESSO] Geracao 5700: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 4811 geracoes
+[PROGRESSO] Geracao 5750: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 4861 geracoes
+[PROGRESSO] Geracao 5800: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 4911 geracoes
+[PROGRESSO] Geracao 5850: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 4961 geracoes
+[PROGRESSO] Geracao 5900: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 5011 geracoes
+[PROGRESSO] Geracao 5950: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 5061 geracoes
+[PROGRESSO] Geracao 6000: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 5111 geracoes
+[PROGRESSO] Geracao 6050: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 5161 geracoes
+[PROGRESSO] Geracao 6100: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 5211 geracoes
+[PROGRESSO] Geracao 6150: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 5261 geracoes
+[PROGRESSO] Geracao 6200: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 5311 geracoes
+[PROGRESSO] Geracao 6250: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 5361 geracoes
+[PROGRESSO] Geracao 6300: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 5411 geracoes
+[PROGRESSO] Geracao 6350: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 5461 geracoes
+[PROGRESSO] Geracao 6400: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 5511 geracoes
+[PROGRESSO] Geracao 6450: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 5561 geracoes
+[PROGRESSO] Geracao 6500: Fitness = 0.1708
+   Tempo medio/geracao: 0.041s
+   Sem melhoria ha 5611 geracoes
+[PROGRESSO] Geracao 6550: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 5661 geracoes
+[PROGRESSO] Geracao 6600: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 5711 geracoes
+[PROGRESSO] Geracao 6650: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 5761 geracoes
+[PROGRESSO] Geracao 6700: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 5811 geracoes
+[PROGRESSO] Geracao 6750: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 5861 geracoes
+[PROGRESSO] Geracao 6800: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 5911 geracoes
+[PROGRESSO] Geracao 6850: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 5961 geracoes
+[PROGRESSO] Geracao 6900: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 6011 geracoes
+[PROGRESSO] Geracao 6950: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 6061 geracoes
+[PROGRESSO] Geracao 7000: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 6111 geracoes
+[PROGRESSO] Geracao 7050: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 6161 geracoes
+[PROGRESSO] Geracao 7100: Fitness = 0.1708
+   Tempo medio/geracao: 0.032s
+   Sem melhoria ha 6211 geracoes
+[PROGRESSO] Geracao 7150: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 6261 geracoes
+[PROGRESSO] Geracao 7200: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 6311 geracoes
+[PROGRESSO] Geracao 7250: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 6361 geracoes
+[PROGRESSO] Geracao 7300: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 6411 geracoes
+[PROGRESSO] Geracao 7350: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 6461 geracoes
+[PROGRESSO] Geracao 7400: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 6511 geracoes
+[PROGRESSO] Geracao 7450: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 6561 geracoes
+[PROGRESSO] Geracao 7500: Fitness = 0.1708
+   Tempo medio/geracao: 0.033s
+   Sem melhoria ha 6611 geracoes
+[PROGRESSO] Geracao 7550: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 6661 geracoes
+[PROGRESSO] Geracao 7600: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 6711 geracoes
+[PROGRESSO] Geracao 7650: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 6761 geracoes
+[PROGRESSO] Geracao 7700: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 6811 geracoes
+[PROGRESSO] Geracao 7750: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 6861 geracoes
+[PROGRESSO] Geracao 7800: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 6911 geracoes
+[PROGRESSO] Geracao 7850: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 6961 geracoes
+[PROGRESSO] Geracao 7900: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 7011 geracoes
+[PROGRESSO] Geracao 7950: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 7061 geracoes
+[PROGRESSO] Geracao 8000: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 7111 geracoes
+[PROGRESSO] Geracao 8050: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 7161 geracoes
+[PROGRESSO] Geracao 8100: Fitness = 0.1708
+   Tempo medio/geracao: 0.033s
+   Sem melhoria ha 7211 geracoes
+[PROGRESSO] Geracao 8150: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 7261 geracoes
+[PROGRESSO] Geracao 8200: Fitness = 0.1708
+   Tempo medio/geracao: 0.043s
+   Sem melhoria ha 7311 geracoes
+[PROGRESSO] Geracao 8250: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 7361 geracoes
+[PROGRESSO] Geracao 8300: Fitness = 0.1708
+   Tempo medio/geracao: 0.031s
+   Sem melhoria ha 7411 geracoes
+[PROGRESSO] Geracao 8350: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 7461 geracoes
+[PROGRESSO] Geracao 8400: Fitness = 0.1708
+   Tempo medio/geracao: 0.030s
+   Sem melhoria ha 7511 geracoes
+[PROGRESSO] Geracao 8450: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 7561 geracoes
+[PROGRESSO] Geracao 8500: Fitness = 0.1708
+   Tempo medio/geracao: 0.032s
+   Sem melhoria ha 7611 geracoes
+[PROGRESSO] Geracao 8550: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 7661 geracoes
+[PROGRESSO] Geracao 8600: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 7711 geracoes
+[PROGRESSO] Geracao 8650: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 7761 geracoes
+[PROGRESSO] Geracao 8700: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 7811 geracoes
+[PROGRESSO] Geracao 8750: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 7861 geracoes
+[PROGRESSO] Geracao 8800: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 7911 geracoes
+[PROGRESSO] Geracao 8850: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 7961 geracoes
+[PROGRESSO] Geracao 8900: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 8011 geracoes
+[PROGRESSO] Geracao 8950: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 8061 geracoes
+[PROGRESSO] Geracao 9000: Fitness = 0.1708
+   Tempo medio/geracao: 0.033s
+   Sem melhoria ha 8111 geracoes
+[PROGRESSO] Geracao 9050: Fitness = 0.1708
+   Tempo medio/geracao: 0.039s
+   Sem melhoria ha 8161 geracoes
+[PROGRESSO] Geracao 9100: Fitness = 0.1708
+   Tempo medio/geracao: 0.031s
+   Sem melhoria ha 8211 geracoes
+[PROGRESSO] Geracao 9150: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 8261 geracoes
+[PROGRESSO] Geracao 9200: Fitness = 0.1708
+   Tempo medio/geracao: 0.032s
+   Sem melhoria ha 8311 geracoes
+[PROGRESSO] Geracao 9250: Fitness = 0.1708
+   Tempo medio/geracao: 0.033s
+   Sem melhoria ha 8361 geracoes
+[PROGRESSO] Geracao 9300: Fitness = 0.1708
+   Tempo medio/geracao: 0.030s
+   Sem melhoria ha 8411 geracoes
+[PROGRESSO] Geracao 9350: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 8461 geracoes
+[PROGRESSO] Geracao 9400: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 8511 geracoes
+[PROGRESSO] Geracao 9450: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 8561 geracoes
+[PROGRESSO] Geracao 9500: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 8611 geracoes
+[PROGRESSO] Geracao 9550: Fitness = 0.1708
+   Tempo medio/geracao: 0.031s
+   Sem melhoria ha 8661 geracoes
+[PROGRESSO] Geracao 9600: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 8711 geracoes
+[PROGRESSO] Geracao 9650: Fitness = 0.1708
+   Tempo medio/geracao: 0.030s
+   Sem melhoria ha 8761 geracoes
+[PROGRESSO] Geracao 9700: Fitness = 0.1708
+   Tempo medio/geracao: 0.032s
+   Sem melhoria ha 8811 geracoes
+[PROGRESSO] Geracao 9750: Fitness = 0.1708
+   Tempo medio/geracao: 0.037s
+   Sem melhoria ha 8861 geracoes
+[PROGRESSO] Geracao 9800: Fitness = 0.1708
+   Tempo medio/geracao: 0.040s
+   Sem melhoria ha 8911 geracoes
+[PROGRESSO] Geracao 9850: Fitness = 0.1708
+   Tempo medio/geracao: 0.038s
+   Sem melhoria ha 8961 geracoes
+[PROGRESSO] Geracao 9900: Fitness = 0.1708
+   Tempo medio/geracao: 0.034s
+   Sem melhoria ha 9011 geracoes
+[PROGRESSO] Geracao 9950: Fitness = 0.1708
+   Tempo medio/geracao: 0.035s
+   Sem melhoria ha 9061 geracoes
+[PROGRESSO] Geracao 10000: Fitness = 0.1708
+   Tempo medio/geracao: 0.036s
+   Sem melhoria ha 9111 geracoes
+[PARADA] GERACOES_MAX - Limite de 10000 geracoes atingido
+
+==================================================
+RESULTADO FINAL
+==================================================
+Motivo da parada: GERACOES_MAX - Limite de 10000 geracoes atingido
+Geracoes executadas: 10000
+Tempo total: 335.61s (5.59min)
+Tempo medio por geracao: 0.037s
+Sem sobreposicao: SIM
+Estavel: SIM
+Ordem correta: SIM
+Melhor fitness: 0.1708
+Volume: 82/480 (17.1%)
+
+============================================================
+RELATORIO FINAL DE EXECUCAO
+============================================================
+Motivo da parada: GERACOES_MAX - Limite de 10000 geracoes atingido
+Tempo total de execucao: 335.90s (5.60min)
+Fitness final: 0.1708
+
+Arquivos salvos em: resultados_brkga/
+   - resultados.json (solucao final)
+   - metricas_tempo.json (metricas de tempo)
+   - registro_geracoes.csv (evolucao por geracao)
+   - checkpoint.json (para retomada)
+
+Iniciando visualizacao 3D...
+Prioridade 2: OCULTAR
+Prioridade 2: MOSTRAR
+Prioridade 2: OCULTAR
+Prioridade 1: OCULTAR
+Prioridade 1: MOSTRAR
+Prioridade 1: OCULTAR
+Prioridade 1: MOSTRAR
+Prioridade 1: OCULTAR
+Prioridade 0: OCULTAR
+Prioridade 0: MOSTRAR
+Prioridade 1: MOSTRAR
+Prioridade 2: MOSTRAR
