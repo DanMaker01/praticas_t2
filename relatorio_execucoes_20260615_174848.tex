@@ -1,0 +1,62 @@
+\section{Resultados das Execuções}
+
+\begin{table}[H]
+\centering
+\caption{Comparação das execuções do BRKGA}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Execução & Fitness & Utilização & Caixas & Gerações & Motivo \\
+\hline
+20260615_164249 & -0.000000 & 20.8% & 100 & 15 & TEMPO_MAX - Limite de 0.05h \\
+\hline
+20260615_170022 & -0.000000 & 18.8% & 60 & 81 & ESTAGNACAO - 50 geracoes sem m \\
+\hline
+20260615_165721 & -0.000000 & 18.8% & 60 & 50 & ESTAGNACAO - 50 geracoes sem m \\
+\hline
+20260615_165039 & -0.000002 & 37.5% & 24 & 123 & ESTAGNACAO - 50 geracoes sem m \\
+\hline
+20260615_174030 & -0.000006 & 34.6% & 54 & 445 & TEMPO_MAX - Limite de 0.166666 \\
+\hline
+20260615_153423 & -0.000008 & 60.8% & 23 & 3000 & GERACOES_MAX - Limite de 3000 \\
+\hline
+20260615_155208 & -0.000013 & 60.8% & 23 & 2468 & ESTAGNACAO - 1500 geracoes sem \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Parâmetros das Execuções}
+\begin{table}[H]
+\centering
+\caption{Parâmetros utilizados em cada execução}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Execução & $\gamma_x$ & $\gamma_y$ & $\gamma_z$ & Modo & $N$ \\
+\hline
+20260615_153423 & 1.0 & 1.0 & 1.0 & Híbrido & 50 \\
+\hline
+20260615_155208 & 0.0 & 0.0 & 0.01 & Separado & 50 \\
+\hline
+20260615_164249 & 0.0 & 0.0 & 0.01 & Separado & 50 \\
+\hline
+20260615_165039 & 0.0 & 0.0 & 0.01 & Separado & 50 \\
+\hline
+20260615_165721 & 0.0 & 0.0 & 0.01 & Separado & 50 \\
+\hline
+20260615_170022 & 0.0 & 0.0 & 0.01 & Separado & 50 \\
+\hline
+20260615_174030 & 0.0 & 0.0 & 0.01 & Separado & 50 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Análise Estatística}
+
+\begin{itemize}
+\item Total de execuções: 7
+\item Execuções bem-sucedidas: 7 (100.0\%)
+\item Melhor fitness: -0.000000
+\item Pior fitness (bem-sucedido): -0.000013
+\item Fitness médio: -0.000004
+\item Utilização média: 36.0%
+\item Média de gerações: 883
+\end{itemize}

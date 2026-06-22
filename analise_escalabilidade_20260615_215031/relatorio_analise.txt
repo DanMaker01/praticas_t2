@@ -1,0 +1,12 @@
+RELATORIO DE ANALISE DE ESCALABILIDADE
+==================================================
+
+Total de testes: 40
+Testes bem-sucedidos: 37
+
+RECOMENDACOES:
+------------------------------
+1. Limite pratico de caixas: ~80 caixas
+2. Tempo medio de execucao: 223.35s
+3. Recomenda-se usar max_geracoes = 200-500 para problemas medios
+4. Caixas heterogeneas sao mais dificeis que homogeneas

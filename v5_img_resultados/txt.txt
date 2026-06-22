@@ -1,0 +1,31 @@
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 8AAD-9ABB
+
+ Pasta de C:\Users\dan\Documents\GitHub\praticas_t2\v5_img_resultados
+
+15/06/2026  17:45    <DIR>          .
+15/06/2026  17:45    <DIR>          ..
+15/06/2026  16:39           143.857 execucao_20260615_153423.png
+15/06/2026  16:39           107.436 execucao_20260615_153423_2.png
+15/06/2026  16:40           364.289 execucao_20260615_153423_retirada.png
+15/06/2026  16:37           131.451 execucao_20260615_155208.png
+15/06/2026  16:38           129.099 execucao_20260615_155208_2.png
+15/06/2026  16:38           344.424 execucao_20260615_155208_retirada.png
+15/06/2026  16:45           168.121 execucao_20260615_164249.png
+15/06/2026  16:45           197.895 execucao_20260615_164249_2.png
+15/06/2026  16:46           476.129 execucao_20260615_164249_retirada.png
+15/06/2026  17:15           200.138 execucao_20260615_165039.png
+15/06/2026  17:16           184.098 execucao_20260615_165039_2.png
+15/06/2026  17:16           404.027 execucao_20260615_165039_retirada.png
+15/06/2026  16:59           193.226 execucao_20260615_165721.png
+15/06/2026  17:00           242.734 execucao_20260615_165721_2.png
+15/06/2026  17:00           437.278 execucao_20260615_165721_retira.png
+15/06/2026  17:01           203.069 execucao_20260615_170022.png
+15/06/2026  17:02           161.273 execucao_20260615_170022_2.png
+15/06/2026  17:02           456.462 execucao_20260615_170022_retirada.png
+15/06/2026  17:41           178.124 execucao_20260615_174030.png
+15/06/2026  17:41           155.396 execucao_20260615_174030_2.png
+15/06/2026  17:42           325.651 execucao_20260615_174030_retirada.png
+15/06/2026  17:45                 0 txt.txt
+              22 arquivo(s)      5.204.177 bytes
+               2 pasta(s)   301.827.383.296 bytes dispon°veis

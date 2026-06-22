@@ -241,11 +241,11 @@ class Visualizador3D:
             cor = cores_prioridade[p['prioridade']]
             self.desenhar_caixa(p['x'], p['y'], p['z'], p['l'], p['w'], p['h'], cor, alpha=0.85, borda=True)
             
-            if mostrar_infos:
-                self.ax.text(p['x'] + p['l']/2, p['y'] + p['w']/2, p['z'] + p['h'] + 0.2,
-                            f"{p['nome']}\nP{p['prioridade']}", 
-                            ha='center', va='bottom', fontsize=7, alpha=0.9,
-                            bbox=dict(boxstyle='round,pad=0.2', facecolor='white', alpha=0.8))
+            # if mostrar_infos:
+            #     self.ax.text(p['x'] + p['l']/2, p['y'] + p['w']/2, p['z'] + p['h'] + 0.2,
+            #                 f"{p['nome']}\nP{p['prioridade']}", 
+            #                 ha='center', va='bottom', fontsize=7, alpha=0.9,
+            #                 bbox=dict(boxstyle='round,pad=0.2', facecolor='white', alpha=0.8))
         
         self.ax.set_xlabel('X (Profundidade)', fontsize=10)
         self.ax.set_ylabel('Y (Largura)', fontsize=10)
@@ -371,11 +371,11 @@ class Visualizador3D:
             cor = cores_fixas[p['prioridade']]
             self.desenhar_caixa(p['x'], p['y'], p['z'], p['l'], p['w'], p['h'], cor, alpha=0.85, borda=True)
             
-            if mostrar_infos:
-                self.ax.text(p['x'] + p['l']/2, p['y'] + p['w']/2, p['z'] + p['h'] + 0.2,
-                            f"{p['nome']}\nP{p['prioridade']}", 
-                            ha='center', va='bottom', fontsize=7, alpha=0.9,
-                            bbox=dict(boxstyle='round,pad=0.2', facecolor='white', alpha=0.8))
+            # if mostrar_infos:
+            #     self.ax.text(p['x'] + p['l']/2, p['y'] + p['w']/2, p['z'] + p['h'] + 0.2,
+            #                 f"{p['nome']}\nP{p['prioridade']}", 
+            #                 ha='center', va='bottom', fontsize=7, alpha=0.9,
+            #                 bbox=dict(boxstyle='round,pad=0.2', facecolor='white', alpha=0.8))
         
         self.ax.set_xlabel('X (Profundidade)', fontsize=10)
         self.ax.set_ylabel('Y (Largura)', fontsize=10)
@@ -510,15 +510,15 @@ class Visualizador3D:
             ax.set_ylabel('Y')
             ax.grid(True, alpha=0.3)
             
-            for p in posicoes:
-                if p['z'] <= z_corte < p['z'] + p['h']:
-                    rect = plt.Rectangle((p['x'], p['y']), p['l'], p['w'],
-                                        facecolor=self.cores(p['prioridade'] % 20),
-                                        alpha=0.7, edgecolor='black', linewidth=1)
-                    ax.add_patch(rect)
-                    ax.text(p['x'] + p['l']/2, p['y'] + p['w']/2,
-                           f"{p['nome']}\nP{p['prioridade']}",
-                           ha='center', va='center', fontsize=6)
+            # for p in posicoes:
+            #     if p['z'] <= z_corte < p['z'] + p['h']:
+            #         rect = plt.Rectangle((p['x'], p['y']), p['l'], p['w'],
+            #                             facecolor=self.cores(p['prioridade'] % 20),
+            #                             alpha=0.7, edgecolor='black', linewidth=1)
+            #         ax.add_patch(rect)
+            #         ax.text(p['x'] + p['l']/2, p['y'] + p['w']/2,
+            #                f"{p['nome']}\nP{p['prioridade']}",
+            #                ha='center', va='center', fontsize=6)
         
         for idx in range(len(alturas), len(axes)):
             axes[idx].set_visible(False)

@@ -1,0 +1,180 @@
+PS C:\Users\dan\Documents\GitHub\praticas_t2> & C:\Users\dan\AppData\Local\Programs\Python\Python313\pytnts/GitHub/praticas_t2/v5/testes_analise_metodo.py
+
+============================================================
+ANALISE DE ESCALABILIDADE DO BRKGA 3D
+============================================================
+
+============================================================
+1. ESTUDO DE CONVERGENCIA
+============================================================
+
+Teste com 20 caixas homogeneas:
+  Executando: Conv_20_50 (max_geracoes=50) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215040
+-> 25 ger, 9.25s, convergiu em 26
+  Executando: Conv_20_100 (max_geracoes=100) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215057
+-> 50 ger, 16.98s, convergiu em 51
+  Executando: Conv_20_200 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215127
+-> 100 ger, 30.36s, convergiu em 101
+  Executando: Conv_20_500 (max_geracoes=500) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215226
+-> 250 ger, 58.72s, convergiu em 251
+
+Teste com 40 caixas homogeneas:
+  Executando: Conv_40_50 (max_geracoes=50) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215300
+-> 25 ger, 33.87s, convergiu em 26
+  Executando: Conv_40_100 (max_geracoes=100) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215404
+-> 50 ger, 64.29s, convergiu em 51
+  Executando: Conv_40_200 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_215625
+-> 100 ger, 140.63s, convergiu em 101
+  Executando: Conv_40_500 (max_geracoes=500) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_220207
+-> 250 ger, 342.04s, convergiu em 251
+
+Teste com 60 caixas homogeneas:
+  Executando: Conv_60_50 (max_geracoes=50) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_220348
+-> 25 ger, 101.15s, convergiu em 26
+  Executando: Conv_60_100 (max_geracoes=100) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_220701
+-> 50 ger, 192.83s, convergiu em 51
+  Executando: Conv_60_200 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_221328
+-> 100 ger, 387.07s, convergiu em 101
+  Executando: Conv_60_500 (max_geracoes=500) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_223026
+-> 250 ger, 1017.77s, convergiu em 251
+
+Teste com 80 caixas homogeneas:
+  Executando: Conv_80_50 (max_geracoes=50) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_223341
+-> 25 ger, 195.39s, convergiu em 26
+  Executando: Conv_80_100 (max_geracoes=100) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_224002
+-> 50 ger, 380.58s, convergiu em 51
+  Executando: Conv_80_200 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_225137
+-> 100 ger, 695.38s, convergiu em 101
+  Executando: Conv_80_500 (max_geracoes=500) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_232039
+-> 250 ger, 1742.26s, convergiu em 251
+
+============================================================
+2. ESTUDO DE TEMPO POR CAIXA
+============================================================
+
+Caixas homogeneas (1x1x1):
+  Executando: Hom_10 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_232044
+-> 100 ger, 4.56s, convergiu em 101
+  Executando: Hom_20 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_232105
+-> 100 ger, 21.41s, convergiu em 101
+  Executando: Hom_30 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_232204
+-> 100 ger, 58.71s, convergiu em 101
+  Executando: Hom_40 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_232405
+-> 100 ger, 120.80s, convergiu em 101
+  Executando: Hom_50 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_232739
+-> 100 ger, 214.55s, convergiu em 101
+  Executando: Hom_60 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_233324
+-> 100 ger, 344.61s, convergiu em 101
+  Executando: Hom_70 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_234221
+-> 100 ger, 536.84s, convergiu em 101
+  Executando: Hom_80 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_235452
+-> 100 ger, 751.13s, convergiu em 101
+
+Caixas heterogeneas (1-3):
+  Executando: Heter_10 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_235458
+-> 100 ger, 5.64s, convergiu em 101
+  Executando: Heter_20 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_235514
+-> 100 ger, 16.18s, convergiu em 101
+  Executando: Heter_30 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_235608
+-> 130 ger, 54.18s, convergiu em 131
+  Executando: Heter_40 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_235624
+-> 100 ger, 16.45s, convergiu em 101
+  Falhou em 40 caixas
+
+============================================================
+3. ESTUDO DE TAMANHO DO CONTAINER
+============================================================
+
+Container Pequeno (4x5x6):
+  Executando: Container_Pequeno (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260615_235921
+-> 119 ger, 177.14s, convergiu em 120
+
+Container Medio (6x8x10):
+  Executando: Container_Medio (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_000242
+-> 100 ger, 200.39s, convergiu em 101
+
+Container Grande (8x10x12):
+  Executando: Container_Grande (max_geracoes=200) Metricas salvas em: resultados_brkga/📁 Resultados salvos em: resultados_brkga\execucao_20260616_000631
+-> 100 ger, 228.83s, convergiu em 101
+
+Container Extra (10x12x15):
+  Executando: Container_Extra (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001032
+-> 100 ger, 240.95s, convergiu em 101
+
+============================================================
+4. COMPARACAO: HOMOGENEO vs HETEROGENEO
+============================================================
+
+20 caixas:
+  Executando: Hom_20 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001055
+-> 100 ger, 23.77s, convergiu em 101
+  Executando: Heter_20 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001113
+-> 101 ger, 17.23s, convergiu em 102
+  Homogeneo: 23.77s, Heterogeneo: 17.23s
+
+30 caixas:
+  Executando: Hom_30 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001214
+-> 100 ger, 61.18s, convergiu em 101
+  Executando: Heter_30 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001305
+-> 126 ger, 50.82s, convergiu em 127
+  Homogeneo: 61.18s, Heterogeneo: 50.82s
+
+40 caixas:
+  Executando: Hom_40 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001503
+-> 100 ger, 118.34s, convergiu em 101
+  Executando: Heter_40 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001525
+-> 100 ger, 22.08s, convergiu em 101
+
+50 caixas:
+  Executando: Hom_50 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001858
+-> 100 ger, 212.40s, convergiu em 101
+  Executando: Heter_50 (max_geracoes=200) Metricas salvas em: resultados_brkga/
+📁 Resultados salvos em: resultados_brkga\execucao_20260616_001925
+-> 100 ger, 27.29s, convergiu em 101
+
+Grafico salvo: analise_escalabilidade_20260615_215031/escalabilidade_analise.png
+
+Relatorio salvo em: analise_escalabilidade_20260615_215031/relatorio_analise.txt
+Dados salvos em: analise_escalabilidade_20260615_215031/dados_completos.csv
+
+============================================================
+ANALISE CONCLUIDA
+============================================================
